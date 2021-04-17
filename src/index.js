@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-// Import Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
+// Custom Bootstrap theme
+import './custom.scss';
 
 // Render App component
 ReactDOM.render(<App />, document.getElementById('root'));

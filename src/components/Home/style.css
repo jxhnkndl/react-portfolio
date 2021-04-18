@@ -1,5 +1,5 @@
 #header {
-  min-height: 90vh;
+  min-height: calc(100vh - 50px);
 }
 
 #header-text {
@@ -10,7 +10,6 @@
   font-family: "Rubik";
   font-size: 5rem;
 }
-
 
 #img-wrapper {
   border-radius: 50%;
@@ -25,9 +24,4 @@
   height: 105%;
   width: auto;
   margin: auto;
-}
-
-.down-scroll-arrow {
-  animation: arrowPulse 1s ease-out;
-  animation-iteration-count: infinite;
 }

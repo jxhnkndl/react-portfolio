@@ -5,7 +5,7 @@ import './style.css';
 // Create and export navbar component
 export default function Navbar() {
   return (
-    <nav id="navbar" className="navbar navbar-expand-lg">
+    <nav style={{ height: '50px' }} id="navbar" className="navbar navbar-expand-lg">
       <div className="container d-flex justify-content-center align-items-center py-2">
         <div className="d-flex justify-content-end align-items-center">
 

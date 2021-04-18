@@ -8,7 +8,7 @@ import './style.css';
 // Landing page component
 function Home() {
   return (
-    <div id="header" class="container d-flex justify-content-center ">
+    <div id="header" class="container d-flex justify-content-center">
     
       <div id="header-text" class="text-center">
 
@@ -17,7 +17,7 @@ function Home() {
         </div>
 
         <h1 class="heading font-weight-bold">
-          <i class="mb-0 fas fa-code"></i>
+          <i class="mb-0 mr-1 fas fa-code green-color"></i>
           HELLO!
         </h1>
 
@@ -25,13 +25,7 @@ function Home() {
 
         <hr />
 
-        <a href="./assets/docs/jk-royston-full-resume.pdf" class="btn text-white m-2 shadow">View My Portfolio</a>
-
-        {/* <div class="down-scroll-arrow text-center mt-5">
-          <a id="#header" href="#portfolio">
-            <i class="fas fa-angle-double-down h2 color-green mb-3"></i>
-          </a>
-        </div> */}
+        <a href="./assets/docs/jk-royston-full-resume.pdf" class="btn m-2 green-gradient-bg light-color shadow">View My Portfolio</a>
 
       </div>
     </div>

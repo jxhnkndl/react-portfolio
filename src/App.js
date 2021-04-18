@@ -12,9 +12,11 @@ import "./App.css";
 function App() {
   return (
     <HashRouter basename="/">
-      <Navbar />
-      <Route exact path={["/", "/home"]} component={Home} />
-      <Route exact path="/about" component={About} />
+      <div className="gray-gradient-bg">
+        <Navbar />
+        <Route exact path={["/", "/home"]} component={Home} />
+        <Route exact path="/about" component={About} />
+      </div>
     </HashRouter>
   );
 }

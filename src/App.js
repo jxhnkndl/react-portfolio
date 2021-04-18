@@ -4,6 +4,7 @@ import { HashRouter, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
 import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path={["/", "/home"]} component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/about" component={About} />
         </Wrapper>
         <Footer />

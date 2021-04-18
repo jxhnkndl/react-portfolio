@@ -9,15 +9,14 @@ import './style.css';
 function Home() {
   return (
     <div id="header" class="container d-flex justify-content-center">
-    
       <div id="header-text" class="text-center">
 
-        <div id="img-wrapper" class="mx-auto mt-5 mb-3 d-flex justify-content-center align-items-center">
+        <div id="img-wrapper" class="mx-auto mb-3 d-flex justify-content-center align-items-center">
           <img src={Animation} alt="Animated memoji portrait" />
         </div>
 
         <h1 class="heading font-weight-bold">
-          <i class="mb-0 mr-1 fas fa-code green-color"></i>
+          <i id="header-icon" class="mb-0 mr-1 fas fa-code"></i>
           HELLO!
         </h1>
 
@@ -25,7 +24,7 @@ function Home() {
 
         <hr />
 
-        <a href="./assets/docs/jk-royston-full-resume.pdf" class="btn m-2 green-gradient-bg light-color shadow">View My Portfolio</a>
+        <a href="./assets/docs/jk-royston-full-resume.pdf" class="btn green-gradient-bg light-color shadow">View My Portfolio</a>
 
       </div>
     </div>

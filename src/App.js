@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 
+// Import stylesheet
+import "./App.css";
+
 // App component
 function App() {
   return (

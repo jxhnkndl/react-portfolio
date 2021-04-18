@@ -1,12 +1,18 @@
+nav {
+  background-color: var(--accent-dark);
+}
+
 .nav-link,
 .nav-link:visited {
-  color: #191920;
+  color: var(--light-color);
+  display: inline-block;
   font-family: "Rubik";
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .nav-link:hover {
-  background-color: #00b894;
-  color: #EFF1F2;
+  background-color: var(--light-color);
+  color: var(--dark-color);
   text-decoration: none;
 }

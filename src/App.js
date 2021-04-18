@@ -2,8 +2,10 @@
 import React from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Wrapper from './components/Wrapper';
 import Home from './components/Home';
 import About from './components/About';
+import Footer from './components/Footer';
 
 // Import stylesheet
 import "./App.css";
@@ -12,10 +14,13 @@ import "./App.css";
 function App() {
   return (
     <HashRouter basename="/">
-      <div className="gray-gradient-bg">
+      <div id="bg-wrapper">
         <Navbar />
-        <Route exact path={["/", "/home"]} component={Home} />
-        <Route exact path="/about" component={About} />
+        <Wrapper>
+          <Route exact path={["/", "/home"]} component={Home} />
+          <Route exact path="/about" component={About} />
+        </Wrapper>
+        <Footer />
       </div>
     </HashRouter>
   );

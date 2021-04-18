@@ -12,7 +12,7 @@ export default function Navbar() {
     >
       <div>
         {/* Primary Links */}
-        <a href="#header" className="nav-link px-2 rounded">
+        <a href="#home" className="nav-link px-2 rounded">
           HOME
         </a>
         <a href="#portfolio" className="nav-link px-2 rounded">

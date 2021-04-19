@@ -113,17 +113,62 @@ export const projectData = [
 // Export developer data
 export const devData = {
   stackArr: [
-    "HTML 5",
-    "CSS 3",
-    "React",
-    "JavaScript",
-    "jQuery",
-    "Bootstrap",
-    "Responsive Design",
-    "AJAX",
-    "Node.js",
-    "Express",
-    "MySQL",
-    "MongoDB",
+    {
+      tech: "HTML 5",
+      icon: "devicon-html5-plain"
+    },
+    {
+      tech: "CSS 3",
+      icon: "devicon-css3-plain"
+    },
+    {
+      tech: "React",
+      icon: "devicon-react-original"
+    },
+    {
+      tech: "JavaScript",
+      icon: "devicon-javascript-plain"
+    },
+    {
+      tech: "jQuery",
+      icon: "devicon-jquery-plain"
+    },
+    {
+      tech: "Bootstrap",
+      icon: "devicon-bootstrap-plain"
+    },
+    {
+      tech: "Node.js",
+      icon: "devicon-nodejs-plain"
+    },
+    {
+      tech: "Express",
+      icon: "devicon-express-original"
+    },
+    {
+      tech: "Handlebars",
+      icon: "devicon-handlebars-plain"
+    },
+    {
+      tech: "MySQL",
+      icon: "devicon-mysql-plain"
+    },
+    {
+      tech: "Sequelize",
+      icon: "devicon-sequelize-plain"
+    },
+    {
+      tech: "MongoDB",
+      icon: "devicon-mongodb-plain"
+    },
+    {
+      tech: "npm",
+      icon: "devicon-npm-original-wordmark"
+    },
+    {
+      tech: "Git",
+      icon: "devicon-git-plain"
+    }
+
   ]
 }

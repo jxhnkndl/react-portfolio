@@ -13,7 +13,7 @@ export default function About() {
         <div class="row">
 
           <div class="col-12 col-md-3">
-            <img class="img-fluid rounded mb-3" src={headshot} alt="Professional headshot" />
+            <img class="img-fluid rounded mb-3 shadow" src={headshot} alt="Professional headshot" />
             
             
           </div>
@@ -30,10 +30,13 @@ export default function About() {
             </p>
 
             <div id="tech-stack" class="mb-3">
-              {devData.stackArr.map((tech, index) => {
+              {devData.stackArr.map((language, index) => {
+                const { tech, icon } = language;
+
                 return (
                   <Badge 
                     key={index}
+                    icon={icon}
                     tech={tech}
                   />
                 );

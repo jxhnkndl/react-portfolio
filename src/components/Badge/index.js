@@ -1,9 +1,13 @@
-// Import React
+// Import React and stylesheet
 import React from 'react';
+import './style.css';
 
 // Create and export badge component
 export default function Badge(props) {
   return (
-    <span class="tech-badge rounded mr-1 p-2">{props.tech}</span>
+    <div className="skill-badge rounded mb-2 mr-2 p-2">
+      <i className={`skill-icon ${props.icon} mb-2`}></i>
+      <p className="d-block mb-0">{props.tech}</p>
+    </div>
   );
 }

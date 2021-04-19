@@ -1,8 +1,8 @@
-/* .tech-stack {
+.tech-stack {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-} */
+}
 
 .tech-badge {
   background-color: var(--brand-color);

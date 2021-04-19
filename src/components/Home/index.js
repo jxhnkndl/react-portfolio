@@ -9,7 +9,7 @@ import './style.css';
 function Home() {
   return (
     <div id="header" className="container d-flex justify-content-center">
-      <div id="header-text" className="text-center">
+      <div id="header-text" className="text-center mt-5">
 
         <div id="img-wrapper" className="mx-auto mb-3 d-flex justify-content-center align-items-center">
           <img src={Animation} alt="Animated memoji portrait" />

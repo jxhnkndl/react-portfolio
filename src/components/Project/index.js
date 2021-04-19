@@ -7,9 +7,9 @@ import './style.css';
 // Create and export project card component
 export default function Project(props) {
   return (
-    <div className="col-12 col-md-6 col-lg-4">
+    <div className="col-12 col-md-6 col-lg-4 pb-3 px-0">
       <div
-        className="card border-0 m-2 p-1 shadow"
+        className="card border-0 m-3 p-1 shadow"
         data-aos="zoom-in"
         data-aos-delay="150"
       >

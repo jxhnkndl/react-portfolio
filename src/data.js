@@ -52,7 +52,6 @@ export const data = [
       "JavaScript",
       "jQuery",
       "AJAX",
-      "Responsive Design",
       "Third Party API"
     ],
     description: "Foo Bar Finder offers foodies a fresh way to find new recipes and cocktails to try. Users can search by main ingredient or category, cycle through the results, and save favorites locally.",

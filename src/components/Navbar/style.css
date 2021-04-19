@@ -1,18 +1,47 @@
 nav {
-  background-color: var(--accent-dark);
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
 }
 
-.nav-link,
-.nav-link:visited {
-  color: var(--light-color);
+.initials {
+  color: var(--brand-color);
+  font-family: var(--rubik);
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.text-link,
+.text-link:visited {
+  color: var(--dark-color);
   display: inline-block;
-  font-family: "Rubik";
+  font-family: var(--rubik);
   font-size: 1rem;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
-.nav-link:hover {
-  background-color: var(--light-color);
-  color: var(--dark-color);
+.text-link:hover {
+  background-color: var(--brand-color);
+  color: var(--light-color);
   text-decoration: none;
+}
+
+.icon {
+  color: var(--dark-color);
+  font-size: 2rem;
+}
+
+.icon-toggler:hover {
+  color: var(--brand-color);
+}
+
+.btn-resume {
+  background-color: var(--brand-color);
+  color: var(--light-color);
+}
+
+.btn-resume:hover {
+  background-color: var(--brand-dark);
+  color: var(--light-color);
 }

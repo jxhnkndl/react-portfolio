@@ -5,39 +5,30 @@ import './style.css';
 // Create and export navbar component
 export default function Navbar() {
   return (
-    <nav
-      style={{ height: '60px' }}
-      id="navbar"
-      className="navbar navbar-expand-lg"
-    >
-      <div>
-        {/* Primary Links */}
-        <a href="#home" className="nav-link px-2 rounded">
-          HOME
-        </a>
-        <a href="#portfolio" className="nav-link px-2 rounded">
-          PORTFOLIO
-        </a>
-        <a href="#about" className="nav-link px-2 rounded">
-          ABOUT
-        </a>
-        <a href="#contact" className="nav-link px-2 rounded">
-          CONTACT
-        </a>
+    <nav className="navbar navbar-expand-lg">
+      <a className="navbar-brand initials" href="#home">
+        JKR
+      </a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedNavbar" aria-controls="collapsedNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        {/* <span className="navbar-toggler-icon"></span> */}
+        <i className="icon-toggler fas fa-bars"></i>
+      </button>
 
-        {/* Secondary Links */}
-        <a
-          href="https://www.github.com/jxhnkndl"
-          className="d-none d-md-inline nav-link px-2 rounded"
-        >
-          GITHUB
-        </a>
-        <a
-          href="https://www.linkedin.com/in/johnkendallroyston"
-          className="d-none d-md-inline nav-link px-2 rounded"
-        >
-          LINKEDIN
-        </a>
+      <div className="collapse navbar-collapse" id="collapsedNavbar">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <a className="nav-link text-link rounded" href="#home">HOME <span className="sr-only">(current)</span></a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-link rounded" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-link rounded" href="#about">ABOUT</a>
+          </li>
+        </ul>
+        <form className="form-inline my-2 my-lg-0">
+          <button className="btn btn-resume my-2 my-sm-0 shadow" type="button">DOWNLOAD RESUME</button>
+        </form>
       </div>
     </nav>
   );

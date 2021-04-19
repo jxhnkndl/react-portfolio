@@ -7,7 +7,7 @@ import './style.css';
 // Create and export footer component
 export default function Footer() {
   return (
-    <footer style={{ minHeight: "86px" }} className="py-2 fixed-bottom">
+    <footer style={{ minHeight: "86px" }} className="py-2">
       <div className="container">
         <div className="row">
 

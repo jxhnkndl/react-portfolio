@@ -6,14 +6,14 @@ import Project from '../Project';
 import './style.css';
 
 // Import data (TEMP)
-import { data } from '../../data';
+import { projectData } from '../../data';
 
 // Create and export Portfolio page component
 export default function Portfolio() {
   return (
     <section className="container">
       <div className="row">
-        { data.map((project, index) => {
+        { projectData.map((project, index) => {
           return (
             <Project 
               id={index}

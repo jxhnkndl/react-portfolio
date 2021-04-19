@@ -7,7 +7,7 @@ import imgDirectory from './assets/employee-directory.png';
 import imgScheduler from './assets/workday-scheduler.png';
 
 // Export project data
-export const data = [
+export const projectData = [
   {
     title: "Burger.js",
     thumbnail: imgBurger,
@@ -109,3 +109,21 @@ export const data = [
     repo: "https://github.com/jxhnkndl/day-planner"
   },
 ]
+
+// Export developer data
+export const devData = {
+  stackArr: [
+    "HTML 5",
+    "CSS 3",
+    "React",
+    "JavaScript",
+    "jQuery",
+    "Bootstrap",
+    "Responsive Design",
+    "AJAX",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "MongoDB",
+  ]
+}

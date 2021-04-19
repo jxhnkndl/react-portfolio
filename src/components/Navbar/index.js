@@ -2,6 +2,9 @@
 import React from 'react';
 import './style.css';
 
+// Import resume PDF
+import resume from '../../assets/jk-royston-full-resume.pdf';
+
 // Create and export navbar component
 export default function Navbar() {
   return (
@@ -27,7 +30,7 @@ export default function Navbar() {
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
-          <button className="btn btn-resume my-2 my-sm-0 shadow" type="button">Download Resume</button>
+          <a href={resume} className="btn btn-resume my-2 my-sm-0 shadow" type="button">Download Resume</a>
         </form>
       </div>
     </nav>

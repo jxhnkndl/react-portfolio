@@ -44,6 +44,6 @@ nav {
 }
 
 .btn-resume:hover {
-  background-color: var(--brand-dark);
+  background-color: var(--accent-darker);
   color: var(--light-color);
 }

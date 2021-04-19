@@ -3,8 +3,8 @@
 :root {
   --brand-color: #00B894;
   --brand-dark: hsl(168, 100%, 32%);
-  --accent-light: #60B8C8;
   --accent-dark: #5A6385;
+  --accent-darker: hsl(227, 19%, 38%);
   --light-color: #EEF1F2;
   --dark-color: #1F202D;
   --roboto: "Roboto", Arial, Helvetica, sans-serif;

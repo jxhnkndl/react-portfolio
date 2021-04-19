@@ -15,7 +15,7 @@ import "./App.css";
 function App() {
   return (
     <HashRouter basename="/">
-      <div id="bg-wrapper" style={{ position: "relative"}} >
+      <div id="bg-wrapper">
         <Navbar />
         <Wrapper>
           <Route exact path={["/", "/home"]} component={Home} />

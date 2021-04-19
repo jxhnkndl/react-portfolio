@@ -16,6 +16,9 @@
 
 #bg-wrapper {
   background-color: var(--light-color);
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 /* Typography media queries */

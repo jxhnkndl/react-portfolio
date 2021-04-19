@@ -8,7 +8,7 @@ import resume from '../../assets/jk-royston-full-resume.pdf';
 // Create and export navbar component
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg mb-4">
       <a className="navbar-brand initials" href="#home">
         JKR
       </a>

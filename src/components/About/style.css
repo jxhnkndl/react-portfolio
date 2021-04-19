@@ -1,3 +1,45 @@
+.bio-heading {
+  color: var(--brand-color);
+  font-family: var(--rubik);
+  font-weight: 900;
+}
+
+.bio-text {
+  font-family: var(--roboto);
+}
+
+.bio-link,
+.bio-link:visited {
+  color: var(--brand-color);
+}
+
+.bio-link:hover {
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+
+.contact-details {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.contact-heading {
+  color: var(--accent-dark);
+  font-family: var(--rubik);
+  font-weight: 500;
+}
+
+.social-icon,
+.social-icon:visited {
+  display: inline-block;
+  color: var(--brand-color);
+  font-size: 2rem;
+}
+
+.social-icon:hover {
+  color: var(--brand-dark);
+}
+
 .tech-stack {
   display: flex;
   justify-content: flex-start;

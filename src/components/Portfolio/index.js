@@ -11,13 +11,23 @@ import { data } from '../../data';
 // Create and export Portfolio page component
 export default function Portfolio() {
   return (
-    <section>
-      <h1>PORTFOLIO</h1>
-      <h1>{data[0].title}</h1>
-      <img style={{ width: '300px' }} src={data[0].thumbnail} alt="Screenshot of Burger.js" />
-      <Project />
-      <Project />
-      <Project />
+    <section className="container">
+      <div className="row">
+        { data.map((project, index) => {
+          return (
+            <Project 
+              id={index}
+              key={index}
+              title={project.title}
+              thumbnail={project.thumbnail}
+              stack={project.stackArr}
+              description={project.description}
+              app={project.app}
+              repo={project.repo}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 }

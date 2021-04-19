@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.02d23e33.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.998857bf.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.998857bf.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.cea246dc.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ae885cef.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ae885cef.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e530417f.js.map",
-    "static/js/2.56b95c8a.chunk.js": "/react-portfolio/static/js/2.56b95c8a.chunk.js",
-    "static/js/2.56b95c8a.chunk.js.map": "/react-portfolio/static/js/2.56b95c8a.chunk.js.map",
+    "static/js/2.0cecafd1.chunk.js": "/react-portfolio/static/js/2.0cecafd1.chunk.js",
+    "static/js/2.0cecafd1.chunk.js.map": "/react-portfolio/static/js/2.0cecafd1.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.02d23e33.chunk.css.map": "/react-portfolio/static/css/main.02d23e33.chunk.css.map",
-    "static/js/2.56b95c8a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.56b95c8a.chunk.js.LICENSE.txt",
+    "static/css/main.cea246dc.chunk.css.map": "/react-portfolio/static/css/main.cea246dc.chunk.css.map",
+    "static/js/2.0cecafd1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0cecafd1.chunk.js.LICENSE.txt",
     "static/media/burger-js.3f91f3f6.png": "/react-portfolio/static/media/burger-js.3f91f3f6.png",
     "static/media/employee-directory.104c0b2c.png": "/react-portfolio/static/media/employee-directory.104c0b2c.png",
     "static/media/foo-bar-finder.775837d0.png": "/react-portfolio/static/media/foo-bar-finder.775837d0.png",
     "static/media/jk-royston-full-resume.f4467e9d.pdf": "/react-portfolio/static/media/jk-royston-full-resume.f4467e9d.pdf",
+    "static/media/jkroyston.4e43c2e9.jpeg": "/react-portfolio/static/media/jkroyston.4e43c2e9.jpeg",
     "static/media/jkroyston.c5601128.gif": "/react-portfolio/static/media/jkroyston.c5601128.gif",
     "static/media/joglogger.8124f911.png": "/react-portfolio/static/media/joglogger.8124f911.png",
     "static/media/weather-dashboard.f7e07bc6.png": "/react-portfolio/static/media/weather-dashboard.f7e07bc6.png",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
-    "static/js/2.56b95c8a.chunk.js",
-    "static/css/main.02d23e33.chunk.css",
-    "static/js/main.998857bf.chunk.js"
+    "static/js/2.0cecafd1.chunk.js",
+    "static/css/main.cea246dc.chunk.css",
+    "static/js/main.ae885cef.chunk.js"
   ]
 }

@@ -3,7 +3,9 @@ nav {
   box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
 }
 
-.initials {
+.initials,
+.initials:hover,
+.initials:visited {
   color: var(--brand-color);
   font-family: var(--rubik);
   font-size: 1rem;
@@ -37,7 +39,7 @@ nav {
 }
 
 .btn-resume {
-  background-color: var(--brand-color);
+  background-color: var(--accent-dark);
   color: var(--light-color);
 }
 

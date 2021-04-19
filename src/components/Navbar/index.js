@@ -27,7 +27,7 @@ export default function Navbar() {
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
-          <button className="btn btn-resume my-2 my-sm-0 shadow" type="button">DOWNLOAD RESUME</button>
+          <button className="btn btn-resume my-2 my-sm-0 shadow" type="button">Download Resume</button>
         </form>
       </div>
     </nav>

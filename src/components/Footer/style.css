@@ -8,11 +8,18 @@ footer {
   color: var(--light-color);
   display: block;
   font-family: "Rubik", sans-serif;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 600;
 }
 
 .contact-link:hover {
   color: var(--dark-color);
   background-color: var(--light-color);
+}
+
+@media (max-width: 768px) {
+  .footer-text,
+  .contact-link {
+    font-size: .6rem;
+  }
 }

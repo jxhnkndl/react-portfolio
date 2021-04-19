@@ -12,10 +12,10 @@ export default function About() {
       <div class="container position-relative">
         <div class="row">
 
-          <div class="col-12 col-md-3">
-            <img class="img-fluid rounded mb-3 shadow" src={headshot} alt="Professional headshot" />
+          <div class="col-12 col-md-3 mb-4">
+            <img class="img-fluid rounded mb-4 shadow" src={headshot} alt="Professional headshot" />
 
-            <div className="contact-details p-2 rounded shadow">
+            <div className="contact-details d-none d-lg-block p-2 rounded shadow">
               <h6 className="contact-heading">CONTACT DETAILS</h6>
               <p className="bio-text font-weight-light mb-1">J.K. Royston</p>
               <p className="bio-text font-weight-light mb-1">(804) 833-7070</p>

@@ -5,10 +5,13 @@ import Animation from '../../assets/jkroyston.gif';
 // Import stylesheet
 import './style.css';
 
+// Import resume PDF
+import resume from '../../assets/jk-royston-full-resume.pdf';
+
 // Landing page component
 function Home() {
   return (
-    <div id="header" className="container d-flex justify-content-center">
+    <section id="header" className="container d-flex justify-content-center">
       <div id="header-text" className="text-center mt-5">
 
         <div id="img-wrapper" className="mx-auto mb-3 d-flex justify-content-center align-items-center">
@@ -24,10 +27,12 @@ function Home() {
 
         <hr />
 
-        <a href="./assets/docs/jk-royston-full-resume.pdf" className="btn cta shadow">View My Portfolio</a>
+        <a href="#portfolio" className="btn cta-primary shadow mr-2">View My Work</a>
+
+        <a href={resume} className="btn cta-secondary shadow">Get My Resume</a>
 
       </div>
-    </div>
+    </section>
   );
 }
 

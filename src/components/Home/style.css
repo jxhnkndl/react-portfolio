@@ -31,12 +31,23 @@
   margin: auto;
 }
 
-.cta {
+.cta-primary {
   background-color: var(--brand-color);
   color: var(--light-color);
 }
 
-.cta:hover {
+.cta-primary:hover {
   background-color: var(--brand-dark);
   color: var(--light-color);
 }
+
+.cta-secondary {
+  background-color: var(--accent-dark);
+  color: var(--light-color);
+}
+
+.cta-secondary:hover {
+  background-color: var(--accent-darker);
+  color: var(--light-color);
+}
+

@@ -20,13 +20,13 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="collapsedNavbar">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link text-link rounded" href="#home">HOME <span className="sr-only">(current)</span></a>
+            <a className="nav-link text-link" href="#home">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-link rounded" href="#portfolio">PORTFOLIO</a>
+            <a className="nav-link text-link" href="#portfolio">Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-link rounded" href="#about">ABOUT</a>
+            <a className="nav-link text-link" href="#about">About</a>
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">

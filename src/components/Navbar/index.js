@@ -2,9 +2,6 @@
 import React from 'react';
 import './style.css';
 
-// Import resume PDF
-import resume from '../../assets/jk-royston-full-resume.pdf';
-
 // Create and export navbar component
 export default function Navbar() {
   return (
@@ -29,9 +26,14 @@ export default function Navbar() {
             <a className="nav-link text-link" href="#about">About</a>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
-          <a href={resume} className="btn btn-resume my-2 my-sm-0 shadow" type="button">Download Resume</a>
-        </form>
+        <div className="d-inline-block my-2 my-lg-0">
+          <a href="https://github.com/jxhnkndl">
+            <i class="social-icon devicon-github-original mr-2"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/johnkendallroyston/">
+            <i class="social-icon devicon-linkedin-plain mr-2"></i>
+          </a>
+        </div>
       </div>
     </nav>
   );

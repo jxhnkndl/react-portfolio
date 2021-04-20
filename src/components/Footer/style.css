@@ -1,9 +1,6 @@
 footer {
   background-color: var(--accent-dark);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  flex: none;
 }
 
 .footer-text,

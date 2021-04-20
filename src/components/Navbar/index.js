@@ -28,10 +28,10 @@ export default function Navbar() {
         </ul>
         <div className="d-inline-block my-2 my-lg-0">
           <a href="https://github.com/jxhnkndl">
-            <i class="social-icon devicon-github-original mr-2"></i>
+            <i className="social-icon devicon-github-original mr-2"></i>
           </a>
           <a href="https://www.linkedin.com/in/johnkendallroyston/">
-            <i class="social-icon devicon-linkedin-plain mr-2"></i>
+            <i className="social-icon devicon-linkedin-plain mr-2"></i>
           </a>
         </div>
       </div>

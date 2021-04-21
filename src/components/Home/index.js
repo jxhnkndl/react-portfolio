@@ -11,7 +11,7 @@ import resume from '../../assets/jk-royston-full-resume.pdf';
 // Landing page component
 function Home() {
   return (
-    <section id="header" className="container d-flex justify-content-center">
+    <section id="header" className="container d-flex justify-content-center pb-5">
       <div id="header-text" className="text-center mt-5">
 
         <div id="img-wrapper" className="mx-auto mb-3 d-flex justify-content-center align-items-center">
@@ -23,7 +23,9 @@ function Home() {
           HELLO!
         </h1>
 
-        <p className="h5 font-weight-light">My name is J.K. Royston and I'm a front-end web developer and designer from Richmond, Virgina.</p>
+        <p className="h5 font-weight-light lead">
+          My name is J.K. Royston and I'm a full-stack web developer from Richmond, Virgina with a passion for UI/UX design.
+        </p>
 
         <hr />
 

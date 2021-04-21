@@ -37,13 +37,3 @@ nav {
 .icon-toggler:hover {
   color: var(--brand-color);
 }
-
-.btn-resume {
-  background-color: var(--accent-dark);
-  color: var(--light-color);
-}
-
-.btn-resume:hover {
-  background-color: var(--accent-darker);
-  color: var(--light-color);
-}

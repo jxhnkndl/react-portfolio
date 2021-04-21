@@ -31,6 +31,11 @@
   margin: auto;
 }
 
+.lead {
+  max-width: 600px;
+  line-height: 1.5;
+}
+
 .cta-primary {
   background-color: var(--brand-color);
   color: var(--light-color);

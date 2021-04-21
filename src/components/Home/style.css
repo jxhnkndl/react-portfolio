@@ -42,12 +42,12 @@
 }
 
 .cta-secondary {
-  background-color: var(--accent-dark);
+  background-color: var(--brand-color);
   color: var(--light-color);
 }
 
 .cta-secondary:hover {
-  background-color: var(--accent-darker);
+  background-color: var(--brand-dark);
   color: var(--light-color);
 }
 

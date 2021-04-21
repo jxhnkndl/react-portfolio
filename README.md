@@ -8,7 +8,7 @@
 * [Deployed Application](#deployed-application)
 * [Application Description](#application-description)
 * [Technologies](#technologies)
-* [Live Demo](#live-demo)
+* [Views](#views)
 * [License](#license)
 * [Contact](#contact)
 
@@ -27,11 +27,17 @@ A clean, responsive, React powered full-stack development portfolio with a touch
 * HTML
 * CSS
 
-## Live Demo
+## Views
 
-<a href="https://drive.google.com/file/d/1FJtVd_4a4J8qFkxjER9GY9q5uI9iAOcc/view">
-  <img src="assets/react-portfolio-demo.gif" alt="React portfolio demonstration" width="1000">
-</a>  
+**Home**  
+<img src="assets/jkr-home.png" alt="Screenshot of React porfolio home page" width="1000">  
+
+**Portfolio**  
+<img src="assets/jkr-portfolio.png" alt="Screenshot of React porfolio home page" width="1000">  
+
+**About**  
+<img src="assets/jkr-about.png" alt="Screenshot of React porfolio home page" width="1000">
+
 
 ## License
 

@@ -29,8 +29,9 @@ A clean, responsive, React powered full-stack development portfolio with a touch
 
 ## Live Demo
 
-<!-- [![Application Preview](assets/react-portfolio-demo.gif)](https://drive.google.com/file/d/1FJtVd_4a4J8qFkxjER9GY9q5uI9iAOcc/view) -->
-<img src="assets/react-portfolio-demo.gif" alt="React portfolio demonstration" width="1000">  
+<a href="https://drive.google.com/file/d/1FJtVd_4a4J8qFkxjER9GY9q5uI9iAOcc/view">
+  <img src="assets/react-portfolio-demo.gif" alt="React portfolio demonstration" width="1000">
+</a>  
 
 ## License
 

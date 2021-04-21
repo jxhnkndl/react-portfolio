@@ -64,5 +64,15 @@
       integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      // Collapse navbar when nav-link is clicked
+      $(document).ready(() => {
+        $(".nav-link").on("click", (e) => {
+          $("#collapsedNavbar").collapse("hide");
+        });
+      });
+    </script>
+
   </body>
 </html>

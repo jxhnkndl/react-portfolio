@@ -13,7 +13,7 @@
 }
 
 .tech-badge {
-  background-color: var(--brand-color);
+  background-color: var(--brand-dark);
   color: var(--light-color);
   font-size: .75rem;
   font-weight: 300;
